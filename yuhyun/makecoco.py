@@ -21,7 +21,6 @@ for file in file_list:
         flag = 0
         while i < 20:
             item = "item" + str(i)
-            # print(item)
             if item in st_python:
                 # print(st_python[item]["bounding_box"])
                 data_class = st_python[item]["category_id"]
